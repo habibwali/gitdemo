@@ -67,6 +67,7 @@ resource "azurerm_windows_virtual_machine" "example" {
     sku       = "2016-Datacenter"
     version   = "latest"
   }
+<<<<<<< HEAD
 }
 
 resource "azurerm_storage_account" "example" {
@@ -79,4 +80,6 @@ resource "azurerm_storage_account" "example" {
   tags = {
     environment = "Pre-prod"
   }
+=======
+>>>>>>> parent of 8409260... added storage account
 }
