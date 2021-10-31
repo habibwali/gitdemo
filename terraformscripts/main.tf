@@ -28,7 +28,7 @@ resource "azurerm_public_ip" "publicip" {
   allocation_method   = "Dynamic"
 
   tags = {
-    environment = "Staging"
+    environment = "Production"
   }
 }
 
